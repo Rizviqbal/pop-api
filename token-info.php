@@ -1,4 +1,5 @@
 <?php
+header('Content-Type: application/json');
 
 // Function to make a GET request using cURL
 function makeApiRequest($url) {
